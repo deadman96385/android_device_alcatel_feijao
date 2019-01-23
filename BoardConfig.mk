@@ -29,6 +29,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
+BOARD_CUSTOM_BOOTIMG_MK := device/alcatel/feijao/mkbootimg.mk
 
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
