@@ -43,6 +43,7 @@ TW_INCLUDE_CRYPTO := true
 TW_NEW_ION_HEAP := true
 TW_NO_BATT_PERCENT := true
 TW_NO_USB_STORAGE := true
+TW_EXCLUDE_MTP := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
